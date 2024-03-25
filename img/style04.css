@@ -1,0 +1,37 @@
+
+    header,footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+    }
+
+    header{
+        background-color: rgb(253, 174, 187);
+    }
+
+    main{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+    
+    #main-section1{ 
+    background-color: rgb(255, 202, 240);
+    flex-basis: 50%;
+    height: 150px;
+    border: 1px solid black;
+    margin-right: 25px;
+    }
+
+    #main-section2{
+    background-color: rgb(217, 190, 243);
+    flex-basis: 50%; 
+    height: 150px;  
+    border: 1px solid black;
+    margin-left: 25px;
+    }
+    footer{
+        background-color: rgb(230, 146, 230);
+    }
+    

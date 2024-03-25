@@ -1,0 +1,31 @@
+
+    header,main,footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 150px;
+    margin: 20px;
+    }
+
+
+    header{
+        background-color: rgb(253, 174, 187);
+    }
+
+    main{
+    display: flex;}
+    
+    #main-section1{ 
+    background-color: rgb(255, 202, 240);
+    flex-basis: 50%;
+    flex-grow: 1;
+    }
+
+    #main-section2{
+    background-color: rgb(217, 190, 243);
+    flex-basis: 50%;  
+    flex-grow: 2;  
+    }
+    footer{
+        background-color: rgb(230, 146, 230);
+    }
+    
