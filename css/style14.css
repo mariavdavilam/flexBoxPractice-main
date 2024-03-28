@@ -7,7 +7,7 @@ body{
 header{
     background-color: aqua;
     border: 1px solid black;
-    flex-basis: 20%;
+    flex-basis: 25%;
     height: 680px;
     flex-direction: row;
     margin: 20px;
@@ -16,7 +16,7 @@ header{
 main{
     display: flex;
     height: 680px;
-    flex-basis:45%;
+    flex-basis:25%;
     flex-direction: column;
     justify-content: space-between;
     margin: 20px;
@@ -40,7 +40,21 @@ main{
     background-color: blue;
     border: 1px solid black;
     flex-direction: row;
-    flex-basis: 20%;
+    flex-basis: 25%;
     margin: 20px;
     height: 680px;
+}
+
+footer{
+display: flex;
+}
+
+.footer-sec{
+    background-color: red;
+    border: 1px solid black;
+    width:150px ;
+    height: 100;
+    align-items: flex-end;
+    
+
 }
