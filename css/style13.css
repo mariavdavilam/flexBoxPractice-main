@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    height: 100%;
+    width: 1000px;
+    margin: 20px;
+    justify-content: center;
+}
+
+header{
+    background-color: aqua;
+    border: 1px solid black;
+    flex-basis: 75%;
+    flex-direction: row;
+    margin: 20px;
+}
+
+main{
+    display: flex;
+    height: 100%;
+    flex-basis:75%;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.box-1{
+    background-color:purple;
+    border: 1px solid black;
+    margin-bottom: 10%;
+    height: 345px;
+    
+
+}
+
+.box-2{
+    background-color: pink;
+    border: 1px solid black;
+    height: 345px;
+}
+
+footer{
+    background-color: blue;
+    border: 1px solid black;
+    flex-direction: row;
+    flex-basis: 75%;
+    margin: 20px;
+    height: 750px;
+}
