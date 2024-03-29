@@ -1,26 +1,27 @@
-body{
+
+.container{
     display: flex;
     width: 100%;
-    justify-content: center;
-    height: 800px;
+    justify-content:space-between;
+    height: 100%;
 }
 
 header{
     background-color: aqua;
     border: 1px solid black;
     flex-basis: 20%;
-    height: 500px;
+    height:500px;
     flex-direction: row;
-    margin: 20px;
+    
 }
 
 main{
     display: flex;
     height: 500px;
-    flex-basis:45%;
+    flex-basis:55%;
     flex-direction: column;
     justify-content: space-between;
-    margin: 20px;
+    
 }
 
 .box-1{
@@ -35,7 +36,8 @@ main{
     background-color: pink;
     border: 1px solid black;
     height: 350px;
-    margin-top: 20px;
+    margin-top: 2%;
+
 }
 
 .box-3{
@@ -43,24 +45,19 @@ main{
     border: 1px solid black;
     flex-direction: row;
     flex-basis: 20%;
-    margin: 20px;
     height: 500px;
 }
+
 footer{
-display: flex;
-flex-direction: column;
-height: 200px;
-width: 90.5%;
-margin: auto;
-position: absolute;
-bottom: 0;
+height: 150px;
+width: 100%;
+margin-top: 2%;
 }
 
 .footer-sec{
     background-color: red;
     border: 1px solid black;
-    height: 100px;
-    flex-basis:70%;
-    margin-top: 20px;
+    height: 150px;
+    flex-basis:100%;
     
-}
+} 

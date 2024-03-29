@@ -8,22 +8,26 @@
         margin-top: 25px;
     }
 
-    
-.main-box{
-    width: 100%;
+    .little-boxes{
+    width: 98%;
     height:150px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin: 20px;
+    border: 1px solid black;
 
 }
 
 .little-boxes{
     width: 15%;
-    height: 75px;
+    height: 25%;
     background-color: blue;
     border: 1px solid black; 
+
 }
+
+.search
 
 #circle{
     width: 5%;
